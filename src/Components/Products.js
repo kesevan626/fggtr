@@ -21,7 +21,7 @@ const Products = () => {
 	
 	const allCategory = ["All", ...new Set(Data.map(product => product.category))];
 	const [products, setProducts] = useState(Data)
-	const [categories, setCategories] = useState(allCategory);
+	const [categories] = useState(allCategory);
 	
 	const filterProducts = (category) => {
 		 if(category === "All") {

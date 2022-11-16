@@ -51,14 +51,14 @@ const Login = () => {
 		          {error && <small>{error}</small>}
 		          <input type="password" placeholder="Enter password" name="password" value={form.password} onChange={updateField}/>
 		          {error && <small>{error}</small>}<br/><br/>
-		          <span><a>Forgot password ?</a></span>
+		          <span><a href="#">Forgot password ?</a></span>
 		          <button type="submit">
 		            Login
 		          </button>
 		          <button className="signin">
 		            <FcGoogle className="google"/> Signin with Google
 		          </button>
-		          <span>Not a member ? <a>Sign up</a></span>
+		          <span>Not a member ? <a href="#">Sign up</a></span>
 		        </form>
 		      </div>
 		    </section>

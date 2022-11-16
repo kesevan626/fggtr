@@ -11,7 +11,7 @@ const ProductDetails = () => {
   const {id} = useParams();
 	const idProduct = Data.find(product => product.id === id
 	);
-	const {img, price, time_icon, category_icon, time, title, desc, category} = idProduct;
+	const {img, price, category_icon,  title, desc, category} = idProduct;
 	const sameCategoryProducts = Data.filter(product => product.category === idProduct.category);
 	const similarProducts = sameCategoryProducts.filter(product => product.id !== idProduct.id);
 	

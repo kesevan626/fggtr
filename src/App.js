@@ -1,5 +1,4 @@
 import React from "react";
-import Data from "./Assets/Data.js";
 import {Routes, Route} from "react-router-dom";
 import Home from "./Pages/Home.js";
 import About from "./Pages/About.js";
