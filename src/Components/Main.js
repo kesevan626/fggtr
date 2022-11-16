@@ -1,6 +1,5 @@
 import {MdFastfood} from "react-icons/md";
 import guy from "../Assets/Images/delivery_guy.png"
-import {useState} from "react";
 import {useInView} from "react-intersection-observer";
 
 const Main = () => {
